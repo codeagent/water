@@ -1,5 +1,4 @@
 .idea/
-node_modules/
 typings/
 npm-debug.log
 assets/scene.log
