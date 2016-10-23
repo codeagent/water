@@ -1,0 +1,22 @@
+{
+  "name": "water",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "lite-server",
+    "tsc": "tsc --project tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gl-matrix": "^2.3.2",
+    "requirejs": "^2.2.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "node-static": "^0.7.7"
+  }
+}

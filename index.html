@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Water</title>
+	<script src="node_modules/gl-matrix/dist/gl-matrix-min.js"></script>
+	<script src="node_modules/requirejs/require.js"></script>
+	<script src="dist/build.js"></script>
+	<style>
+		body, html {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+
+		#viewport {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<canvas id="viewport"></canvas>
+<script>
+	require(["bootstrap"]);
+</script>
+</body>
+</html>

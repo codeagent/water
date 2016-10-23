@@ -1,0 +1,9 @@
+{
+  "name": "water",
+  "dependencies": {},
+  "globalDependencies": {
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160602141504",
+    "gl-matrix": "registry:dt/gl-matrix#2.2.2+20160701060731",
+    "whatwg-fetch": "registry:dt/whatwg-fetch#0.0.0+20160524142046"
+  }
+}
